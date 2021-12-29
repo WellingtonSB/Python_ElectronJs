@@ -4,13 +4,21 @@ from flask import Flask,request,jsonify
 
 app= Flask(__name__)
 
-@app.route('/postproduct')
+@app.route('/postproduct',methods =['POST'])
 def postProduct():
-    data = (1,"some","somedate","23")
-    return str(crd.createProducts(data))
-
+    
+    productname = request.form.get('productname')
+    datetime = request.form.get('datetime')
+    productweigth = request.form.get('productweigth')
+    
+    data = (1,productname,datetime,productweigth)
+    
+    if isinstance(crd.createProducts(data),int):
+        return 'success'
+    else:
+        return 'failed'
      
-@app.route('/getproducts')
+@app.route('/getproducts',methods =['GET'])
 def getAllProducts():
     return crd.get_products()
  

@@ -4,14 +4,14 @@ function createWindow() {
     const window = new BrowserWindow({
         width: 1024,
         height: 800,
-        resizable: true,
+        resizable: false,
         webPreferences: {
             nodeIntegration: true,
             contextIsolation: false         
         }
     })
     window.loadFile(__dirname + '/src/index.html')
-    //window.webContents.openDevTools()
+   window.webContents.openDevTools()
 }
 
 app.whenReady().then(createWindow)

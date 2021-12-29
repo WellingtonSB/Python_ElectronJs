@@ -13,5 +13,9 @@
   "devDependencies": {
     "electron": "^16.0.5",
     "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
   }
 }

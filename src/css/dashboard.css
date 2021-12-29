@@ -28,6 +28,7 @@
     height: 100%;
     position: relative;
     display: inline-block;
+    background-color: cadetblue;
 }
 
 .dashboard-dispatch-card-out {
@@ -42,6 +43,7 @@
     height: 100%;
     position: relative;
     display: inline-block;
+    background-color:darksalmon
 }
 
 .dashboard-shipment-card-out {
@@ -56,6 +58,7 @@
     height: 100%;
     position: relative;
     display: inline-block;
+    background-color: indianred;
 }
 
 .dashboard-return-card-out {
@@ -84,43 +87,57 @@
     height: 33.33%;
     width: 100%;
     position: relative;
+    display: flex;
 }
 
-.dashboard-bottom-container-out {
+.dashboard-bottom-container-left-out {
     height: 96%;
-    width: 96%;
+    width: 40%;
     position: relative;
     margin-top: 6%;
-    margin-left: 3%;
+    margin-left: 2%;
+    display: left;
+    background-color: rgba(172, 255, 47, 0.466);
 }
 
-.dashboard-product-row{
+.dashboard-row {
     padding-top: 20px;
     position: relative;
     width: 100%;
+    padding-left: 10px;
 }
 
-.dashboard-product-align-column-a{
+.dashboard-product-align-column-a {
     padding-top: 10px;
     padding-bottom: 10px;
     position: relative;
-    width: 20%;
+    width: 50%;
     display: inline-block;
 }
 
-.dashboard-product-align-column-b{
+.dashboard-product-align-column-b {
     padding-top: 10px;
     padding-bottom: 10px;
     position: relative;
-    width: 20%;
+    width: 15%;
     display: inline-block;
 }
 
-.dashboard-product-align-column-c{
+.dashboard-product-align-column-c {
     padding-top: 10px;
     padding-bottom: 10px;
     position: relative;
-    width: 20%;
+    width: 30%;
     display: inline-block;
 }
 
+.dashboard-bottom-container-right-out {
+    height: 96%;
+    width: 60%;
+    position: relative;
+    margin-top: 6%;
+    margin-right: 2%;
+    display: inline-block;
+    float: right;
+    background-color: rgba(172,255,47,0.276);
+}
