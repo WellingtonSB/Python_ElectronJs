@@ -1,0 +1,126 @@
+.dashboard-main-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.dashboard-top-container {
+    height: 33.33%;
+    width: 100%;
+    position: relative;
+}
+
+.dashboard-middle-container {
+    height: 25%;
+    width: 100%;
+    position: relative;
+}
+
+.dashboard-middle-container-out {
+    height: 96%;
+    width: 100%;
+    padding: 2%;
+    position: relative;
+}
+
+.dashboard-dispatch-card {
+    width: 33%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.dashboard-dispatch-card-out {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    margin: 5%;
+}
+
+.dashboard-shipment-card {
+    width: 33%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.dashboard-shipment-card-out {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    margin: 5%;
+}
+
+.dashboard-return-card {
+    width: 33%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.dashboard-return-card-out {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    margin: 5%;
+}
+
+.dashboard-card-label {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font: small;
+}
+
+.dashboard-card-label-value {
+    padding-left: 5%;
+    position: relative;
+    display: inline-block;
+    font-size: 500%;
+}
+
+.dashboard-bottom-container {
+    height: 33.33%;
+    width: 100%;
+    position: relative;
+}
+
+.dashboard-bottom-container-out {
+    height: 96%;
+    width: 96%;
+    position: relative;
+    margin-top: 6%;
+    margin-left: 3%;
+}
+
+.dashboard-product-row{
+    padding-top: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.dashboard-product-align-column-a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    width: 20%;
+    display: inline-block;
+}
+
+.dashboard-product-align-column-b{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    width: 20%;
+    display: inline-block;
+}
+
+.dashboard-product-align-column-c{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    width: 20%;
+    display: inline-block;
+}
+
