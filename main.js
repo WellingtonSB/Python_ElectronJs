@@ -1,4 +1,5 @@
 const { app, BrowserWindow } = require('electron')
+const { spawn } = require('child_process')
 
 function createWindow() {
     const window = new BrowserWindow({
@@ -11,10 +12,13 @@ function createWindow() {
         }
     })
     window.loadFile(__dirname + '/src/index.html')
-   window.webContents.openDevTools()
+   //window.webContents.openDevTools()
 }
 
-app.whenReady().then(createWindow)
+app.whenReady().then(
+    createWindow,
+    spawn("python",["./python/main.py"]))
+
 app.on('window-all-closed', () => {
     if (process.platform != 'darwin') {
         app.quit()
