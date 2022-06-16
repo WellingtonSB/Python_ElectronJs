@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^16.0.5",
+    "electron": "^16.2.6",
     "parcel-bundler": "^1.12.5"
   },
   "dependencies": {
